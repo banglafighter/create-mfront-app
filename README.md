@@ -1,1 +1,1 @@
-# mFront Dependency Wrapper & Re-exporter
+# mFront application create tools
