@@ -6,9 +6,9 @@
     "start": "vite"
   },
   "dependencies": {
-    "mfront": "workspace:*",
-    "mfront-ui": "workspace:*",
-    "mfront-default-ui": "workspace:*"
+    "mfront": "0.0.2-alpha.1",
+    "mfront-ui": "0.0.2-alpha.1",
+    "mfront-default-ui": "0.0.2-alpha.1"
   },
   "devDependencies": {
     "vite": "^8.0.3",
