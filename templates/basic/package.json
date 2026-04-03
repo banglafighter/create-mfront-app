@@ -6,7 +6,7 @@
     "start": "vite"
   },
   "dependencies": {
-    "mfront": "0.0.2-alpha.1",
+    "mfront": "0.0.2-alpha.3",
     "mfront-ui": "0.0.2-alpha.1",
     "mfront-default-ui": "0.0.2-alpha.1"
   },
