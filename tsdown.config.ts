@@ -3,6 +3,9 @@ import {baseConfig} from '../../tsdown.base.mjs'
 
 export default defineConfig({
     ...baseConfig,
-    entry: ['src/index.ts'],
+    entry: [
+        'src/index.ts',
+        "src/bin/index.js"
+    ],
     outDir: 'dist'
 })
