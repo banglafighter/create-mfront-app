@@ -1,0 +1,15 @@
+{
+  "name": "starter",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vite": "^8.0.11",
+    "@vitejs/plugin-react": "^6.0.1"
+  }
+}
