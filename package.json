@@ -18,6 +18,14 @@
     "release:beta": "pnpm run build && pnpm run version:beta && pnpm run publish:beta",
     "release": "pnpm run build && pnpm run version:release && pnpm run publish:release"
   },
+  "bin": {
+    "create-mfront-app": "./src/bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "prompts": "^2.4.2",
+    "picocolors": "^1.1.1"
+  },
   "author": {
     "name": "Bangla Fighter",
     "url": "https://banglafighter.org"
