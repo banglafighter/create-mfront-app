@@ -6,12 +6,13 @@ import ComponentsUr from "./features/components/components-ur";
 
 export class DocumentationRegistry {
 
-    private static loadTranslation() {
+    private static _loadTranslation() {
         loadTranslation("en", ENGLISH)
         loadTranslation("bn", BANGLA)
     }
 
     public static register(route: MRoute): void {
+        this._loadTranslation()
         CommonUr.registerRoute(route)
         ComponentsUr.registerRoute(route)
     }
