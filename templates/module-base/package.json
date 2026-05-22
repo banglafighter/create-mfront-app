@@ -1,0 +1,14 @@
+{
+  "name": "documentation",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {},
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  }
+}
