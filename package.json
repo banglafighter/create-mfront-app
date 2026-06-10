@@ -1,6 +1,6 @@
 {
   "name": "create-mfront-app",
-  "version": "0.0.5-alpha.76",
+  "version": "0.0.5-alpha.77",
   "description": "Create Application Tools for mFront",
   "license": "Apache-2.0",
   "main": "src/index.ts",
